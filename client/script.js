@@ -85,7 +85,7 @@ const handleSubmit = async (e) =>{
     loader(messageDiv);
 
     //fetch data from the server and get Bot response 
-    const response = await fetch ('https://jarvis-chat-bot.onrender.com',
+    const response = await fetch ('https://jarvis-chat-bot.onrender.com',   
     {
         method: 'POST',
         headers: {
